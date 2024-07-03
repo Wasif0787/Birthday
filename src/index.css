@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General styles for the application */
+.app-container {
+    text-align: center;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.bg {
+    background-image: url('/bg.png');
+}
